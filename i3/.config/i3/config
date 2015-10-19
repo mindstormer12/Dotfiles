@@ -26,8 +26,8 @@ bindsym $mod+Return exec --no-startup-id termite
 #bindsym $mod+Shift+q kill
 bindsym $mod+c kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+# start dmenu )
+bindsym $mod+d exec --no-startup-id dmenu_run -fn "Inconsolata-8:normal" -nf white -l 10
 
 # change focus
 

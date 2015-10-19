@@ -47,6 +47,8 @@ alias x='exec startx'
 alias p='sudo pacman -Syu'
 alias ps='sudo pacman -S'
 alias pr='sudo pacman -Rns'
+alias mv='mv -i'
+alias cp='cp -i'
 
 #aliases for physlock d and systemctl hibernate, suspend, etc...?
 #list all orphaned packages: alias orp='pacman -Qdt'
